@@ -1,0 +1,46 @@
+.example {
+	border: 2px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+
+.break {
+	margin-bottom: 90px;
+	border: none;
+}
+
+#red {
+	height: 20px;
+	background-color: red;
+	margin: 20px;
+}
+
+#blue {
+	height: 20px;
+	background-color: blue;
+	margin: 20px;
+}
+
+.round {
+	border-radius: 30px;
+}
+
+#fade-target {
+	height: 50px;
+	background-color: green;
+	margin: 20px;
+}
+
+#slide-target {
+	height: 200px;
+	background-color: yellow;
+	margin: 20px;
+}
+
+#animate-target {
+	height: 100px;
+	width: 50px;
+	background-color: purple;
+	margin: 20px;
+	position: relative;
+}
