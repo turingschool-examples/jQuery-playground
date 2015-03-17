@@ -1,0 +1,8 @@
+<div class="filter">
+  <label>Filter By Department</label>
+  <%= select("robot", "filter_department", @departments, {include_blank: true}) %>
+  <label>Filter By State</label>
+  <%= select("robot", "filter_state", @states, {include_blank: true}) %>
+  <label>Filter By Name</label>
+  <input type="text" placeholder="Robot's Name" id="robot_filter_name">
+</div>
