@@ -1,0 +1,18 @@
+<%= render "filter" %>
+
+<div class="robots">
+<% @robots.each do |robot| %>
+  <div class="robot" data-department="<%= robot.department %>" data-state="<%= robot.state %>" data-name="<%= robot.name %>">
+    <h3><%= robot.name %></h3>
+    <%= image_tag(robot.avatar) %>
+    <dl>
+      <dt>Department</dt>
+      <dd class="robot_department"><%= robot.department %></dd>
+      <dt>Location</dt>
+      <dd><%= robot.city %>, <%= robot.state %> <%= robot.zip_code %></dd>
+      <dt>Phone Extension</dt>
+      <dd><%= robot.extension %></dd>
+    </dl>
+  </div>
+<% end %>
+</div>
