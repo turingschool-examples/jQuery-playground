@@ -1,8 +1,8 @@
-<%= render "filter" %>
+<%= render partial: "filter" %>
 
 <div class="robots">
 <% @robots.each do |robot| %>
-  <div class="robot" data-department="<%= robot.department %>">
+  <div class="robot" data-department="<%= robot.department %>" data-state="<%= robot.state %>" data-name="<%= robot.name %>">
     <h3><%= robot.name %></h3>
     <%= image_tag(robot.avatar) %>
     <dl>
