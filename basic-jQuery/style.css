@@ -44,3 +44,12 @@
 	margin: 20px;
 	position: relative;
 }
+
+#grow-target {
+	height: 100px;
+	width: 100px;
+	background-color: magenta;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+}

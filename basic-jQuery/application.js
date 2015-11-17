@@ -12,7 +12,7 @@ $(document).ready(function(){
 	// hiding an element
 	$("#hide").click(function(){
 		$("#red").hide();
-	});	
+	});
 
 	// toggling hide/show on an element
 	$("#toggle").click(function(){
@@ -62,9 +62,20 @@ $(document).ready(function(){
 
 	// animating an element
 	$("#animate").click(function(){
-		$("#animate-target").animate({  
-		    opacity: 0.25,  
-		    left: "+=500",  
+		$("#animate-target").animate({
+		    opacity: 0.25,
+		    left: "+=500",
 		  }, 3000);
 	})
+
+	//animate height of an element
+	$( "#grow" ).click(function() {
+	  $( "#grow-target" ).animate({
+	    width: "70%",
+	    opacity: 0.4,
+	    marginLeft: "0.6in",
+	    fontSize: "3em",
+	    borderWidth: "10px"
+	  }, 1000 );
+	});
 });
